@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : BlackPolish 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20121026
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<title>Homework5</title>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css'>
+<link href="csc1012.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+    <body>
+        
+      <script>
+            function add() {
+                current = document.getElementById('Total').innerHTML;
+                var future = +current + 2;
+                document.getElementById('Total').innerHTML = future;
+            }
+        </script>
+
+        <h1>Pinapple Pizza</h1>
+        <p id="Total">0</p>
+<br>
+
+<div align="center">	
+<img width="400" height="200" src="pinapple.jpg">
+</div>
+<br>
+        <button onclick="add()">add 2</button>
+       
+        <script>
+            function foo() {
+                current = document.getElementById('Sum').innerHTML;
+                var future = +current + 2;
+                document.getElementById('Sum').innerHTML = future;
+            }
+        </script>
+        
+        <h1>Veggie Pizza</h1>
+        <p id="Sum">0</p>
+<br>
+
+<div align="center">
+<img width="400" height="200" src="veggie.jpeg">
+</div>
+<br>
+        <button onclick="foo()">add 2</button>
+
+        <script>
+            function joo() {
+                current = document.getElementById('Equa').innerHTML;
+                var future = +current + 2;
+                document.getElementById('Equa').innerHTML = future;
+            }
+        </script>
+        
+        <h1>Vegan Pizza</h1>
+        <p id="Equa">0</p>
+<br>
+
+<div align="center">
+<img width="400" height="200" src="vegan.jpg">
+</div>
+<br>
+        <button onclick="joo()">add 2</button>
+
+
+</body>
+</html>
